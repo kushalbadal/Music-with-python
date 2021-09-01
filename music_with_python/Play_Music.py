@@ -1,6 +1,8 @@
 import simpleaudio as sa
 import time
 
+
+#play function
 def mplay(fname):
     wave_obj = sa.WaveObject.from_wave_file(fname)
     play_obj = wave_obj.play()
